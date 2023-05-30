@@ -168,14 +168,21 @@ a:hover {
 @media screen and (max-width: 369px) {
   main {
     margin-top: -50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   a {
     font-size: 17px;
     padding: 10px 43px;
+    background-color: unset;
+    transition: none;
   }
   a:hover {
     padding: 10px 43px;
+    border: #bde0fe7c solid;
+    transition: none;
   }
 
   #catalogo1 a {
@@ -183,11 +190,13 @@ a:hover {
   }
   #catalogo1 a:hover {
     padding: 10px 10px;
+    transition: none;
   }
   #catalogo2 a {
     padding: 10px 10px;
   }
   #catalogo2 a:hover {
     padding: 10px 10px;
+    transition: none;
   }
 }
