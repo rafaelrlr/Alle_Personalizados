@@ -114,12 +114,12 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 389px) {
+@media screen and (max-width: 430px) {
   a {
     padding: 15px 95px;
   }
   a:hover {
-    padding: 15px 115px;
+    padding: 20px 95px;
     transition: all 0.8s ease;
   }
 
@@ -127,14 +127,14 @@ a:hover {
     padding: 15px 10px;
   }
   #catalogo1 a:hover {
-    padding: 15px 25px;
+    padding: 20px 10px;
     transition: all 0.8s ease;
   }
   #catalogo2 a {
     padding: 15px 55px;
   }
   #catalogo2 a:hover {
-    padding: 15px 75px;
+    padding: 20px 55px;
     transition: all 0.8s ease;
   }
 }
@@ -142,28 +142,28 @@ a:hover {
 @media screen and (max-width: 379px) {
   a {
     font-size: 17px;
-    padding: 10px 90px;
-  }
-  a:hover {
     padding: 15px 95px;
+  }
+
+  a:hover {
+    padding: 20px 95px;
     transition: all 0.8s ease;
   }
 
   #catalogo1 a {
-    padding: 10px 18px;
+    padding: 15px 23px;
   }
   #catalogo1 a:hover {
-    padding: 15px 23px;
+    padding: 20px 23px;
     transition: all 0.8s ease;
   }
   #catalogo2 a {
-    padding: 10px 55px;
+    padding: 15px 60px;
   }
   #catalogo2 a:hover {
-    padding: 15px 60px;
+    padding: 20px 60px;
     transition: all 0.8s ease;
   }
-}
 
 @media screen and (max-width: 369px) {
   main {
