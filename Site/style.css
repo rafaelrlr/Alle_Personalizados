@@ -164,7 +164,7 @@ a:hover {
     padding: 20px 60px;
     transition: all 0.8s ease;
   }
-
+}
 @media screen and (max-width: 369px) {
   main {
     margin-top: -50px;
