@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 
-
 colors {
   color: #cdb4db;
   color: #ffc8dd;
@@ -18,7 +17,6 @@ body {
   font-family: "Rubik";
   background-color: #cdb4db;
   background: url(img/24737e18-6da8-4835-a7fc-543a097f3cc2.jpg) center;
-  
 }
 
 #header {
@@ -112,6 +110,91 @@ a:hover {
   }
   #catalogo2 a:hover {
     padding: 15px 80px;
+    transition: all 0.8s ease;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  a {
+    padding: 15px 95px;
+  }
+  a:hover {
+    padding: 15px 115px;
+    transition: all 0.8s ease;
+  }
+
+  #catalogo1 a {
+    padding: 15px 10px;
+  }
+  #catalogo1 a:hover {
+    padding: 15px 25px;
+    transition: all 0.8s ease;
+  }
+  #catalogo2 a {
+    padding: 15px 55px;
+  }
+  #catalogo2 a:hover {
+    padding: 15px 75px;
+    transition: all 0.8s ease;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  a {
+    padding: 10px 90px;
+  }
+  a:hover {
+    padding: 10px 110px;
+    transition: all 0.8s ease;
+  }
+
+  #catalogo1 a {
+    padding: 10px 5px;
+  }
+  #catalogo1 a:hover {
+    padding: 10px 20px;
+    transition: all 0.8s ease;
+  }
+  #catalogo2 a {
+    padding: 10px 50px;
+  }
+  #catalogo2 a:hover {
+    padding: 10px 70px;
+    transition: all 0.8s ease;
+  }
+}
+
+@media screen and (max-width: 369px) {
+  a {
+    padding: 10px 80px;
+  }
+  a:hover {
+    padding: 10px 100px;
+    transition: all 0.8s ease;
+  }
+
+  #catalogo1 a {
+    padding: 10px 0px;
+  }
+  #catalogo1 a:hover {
+    padding: 10px 10px;
+    transition: all 0.8s ease;
+  }
+  #catalogo2 a {
+    padding: 10px 40px;
+  }
+  #catalogo2 a:hover {
+    padding: 10px 60px;
+    transition: all 0.8s ease;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  #catalogo2 a {
+    padding: 10px 20px;
+  }
+  #catalogo2 a:hover {
+    padding: 10px 30px;
     transition: all 0.8s ease;
   }
 }
