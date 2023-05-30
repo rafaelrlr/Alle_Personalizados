@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+
+colors {
+  color: #cdb4db;
+  color: #ffc8dd;
+  color: #ffafcc;
+  color: #bde0fe;
+  color: #a2d2ff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Rubik";
+  background-color: #cdb4db;
+  background: url(img/24737e18-6da8-4835-a7fc-543a097f3cc2.jpg) center;
+  
+}
+
+#header {
+  display: grid;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px;
+}
+
+header img {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+#whats img {
+  width: 30px;
+}
+
+#whatsapp {
+  display: grid;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+#catalogo1 {
+  display: grid;
+  justify-content: center;
+}
+
+#catalogo2 {
+  display: grid;
+  justify-content: center;
+  padding: 50px;
+}
+
+a {
+  color: #000000;
+  font-family: "Rubik";
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #bde0fe7c;
+  border-radius: 20px;
+  padding: 15px 250px;
+  transition: all 0.8s ease;
+}
+
+a:hover {
+  padding: 20px 260px;
+  transition: all 0.8s ease;
+}
+
+#catalogo1 a {
+  padding: 15px 165px;
+  transition: all 0.8s ease;
+}
+
+#catalogo1 a:hover {
+  padding: 20px 175px;
+  transition: all 0.8s ease;
+}
+
+#catalogo2 a {
+  padding: 15px 210px;
+  transition: all 0.8s ease;
+}
+
+#catalogo2 a:hover {
+  padding: 20px 220px;
+  transition: all 0.8s ease;
+}
+
+@media screen and (max-width: 700px) {
+  a {
+    padding: 15px 100px;
+  }
+  a:hover {
+    padding: 15px 120px;
+    transition: all 0.8s ease;
+  }
+
+  #catalogo1 a {
+    padding: 15px 15px;
+  }
+  #catalogo1 a:hover {
+    padding: 15px 30px;
+    transition: all 0.8s ease;
+  }
+  #catalogo2 a {
+    padding: 15px 60px;
+  }
+  #catalogo2 a:hover {
+    padding: 15px 80px;
+    transition: all 0.8s ease;
+  }
+}
